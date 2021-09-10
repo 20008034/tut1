@@ -15,6 +15,7 @@ public class Greeter {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle_en_NZ", locale);
 
     return messages.getString("greeting") + ", " +  name.toUpperCase();
+
   }
 
   public static void main(String[] args) {
